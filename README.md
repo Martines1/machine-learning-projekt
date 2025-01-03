@@ -1,6 +1,6 @@
 # machine-learning-projekt
-Projekt na predmet Strojové učenie - téma sa volá Klasifikácia filmových žánrov
-Postup:\ 
+Projekt na predmet Strojové učenie - téma sa volá Klasifikácia filmových žánrov \
+Postup: \
 Je potrebna Anaconda, aby bolo možné nainštalovať prostredie pomocou
 ```
 conda env create -f environment.yml
