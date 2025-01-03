@@ -54,7 +54,6 @@ df['target_genre'] = df['genres_list'].apply(lambda x: assign_target_genre(x, se
 df['overview'] = df['overview'].apply(text_preprocessing.remove_interpunction)
 df['overview'] = df['overview'].apply(text_preprocessing.remove_non_ascii)
 df['overview'] = df['overview'].apply(text_preprocessing.remove_tags)
-df['overview'] = df['overview'].apply(text_preprocessing.remove_digits)
 df['overview'] = df['overview'].apply(text_preprocessing.keep_alphabet_only)
 df['overview'] = df['overview'].apply(text_preprocessing.remove_stopWords)
 
